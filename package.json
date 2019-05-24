@@ -1,0 +1,16 @@
+{
+  "name": "www",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+	"postinstall" : "npm install -g cordova && cordova platform add browser",
+    "start": "cordova run browser"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cordova-plugin-browsersync": "^1.1.0",
+    "phaser": "^3.17.0"
+  }
+}
